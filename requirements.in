@@ -1,0 +1,4 @@
+numpy < 1.23.5
+pandas
+scikit-learn
+dataclasses_json
