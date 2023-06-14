@@ -1,4 +1,6 @@
-numpy < 1.23.5
+numpy == 1.24.1
 pandas
 scikit-learn
 dataclasses_json
+joblib
+sidetrek == 0.0.98
