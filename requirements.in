@@ -3,4 +3,4 @@ pandas
 scikit-learn
 dataclasses_json
 joblib
-sidetrek == 0.0.98
+sidetrek == 0.0.108

@@ -52,7 +52,8 @@ def get_data(ds: SidetrekDataset) -> pd.DataFrame:
     return df
 
 def preprocess_ds(df: pd.DataFrame)->pd.DataFrame:
-    df.drop(["\ufeffID"], axis=1, inplace=True)
+    # df.drop([r"\ufeffID"], axis=1, inplace=True)
+    df.drop(columns=df.columns[0], axis=1, inplace=True)
     df = pd.get_dummies(df, columns=["Sepssis"],drop_first=True)
     return df
 
